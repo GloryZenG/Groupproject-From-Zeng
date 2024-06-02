@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{b853754a-9b5d-4bf3-89df-e98706c617f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{b128d407-48ea-4d3f-866b-5142b56b6762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{aad86c4c-ab45-4042-920d-b8246a8116b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{55ca87ec-09a8-4466-beda-c6bb0b4d2feb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="bookings.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="flights.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="planes.txt">
+      <Filter>data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Admin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Booking.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Flight.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TicketAgent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Booking.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Flight.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TicketAgent.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
